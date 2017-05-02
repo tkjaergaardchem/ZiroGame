@@ -4,6 +4,7 @@ import Boss
 Jacob = Char.Player("Jacob")
 Snugs = Char.Warrior("Snugs")
 Nui = Char.Archmage("Nui")
+Cinder = Char.Necromancer("Cinder")
 Ragnaros = Boss.Boss("Ragnaros", 5, 100, 5, 5, 5)
 
 Ragnaros.take_damage(5)

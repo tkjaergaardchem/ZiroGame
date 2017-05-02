@@ -44,3 +44,16 @@ class Archmage(Class):
         self._lvl = 1
         self._xp = 0
         print("A mage named {} was created with hp of {} and lvl {}".format(name, self._hp, self._lvl))
+
+#Thomas creates a new class for testing
+class Necromancer(Class):
+
+        def __init__(self,name):
+            Class.__init__(self, name=name, hp=80, stam=12)
+            self._str = 0
+            self._int = 7
+            self._agi = 3
+            self._lvl = 1
+            self._xp = 0
+            print("A Nedromancer named {} was created hwit hp of {} and lvl {}".format(name, self._hp, self._lvl))
+
